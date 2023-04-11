@@ -61,7 +61,7 @@ Don't use multi-line comments inside other multi-line comments. Wrapping single-
 
 Comment your code liberally, and write your comments as if speaking to someone who has no idea what the code does. Don’t assume you'll remember why you made specific choices.
 
-### Object and Variables
+### Objects and Variables
 
 **Key insight**
 
@@ -76,6 +76,8 @@ In general programming, the term object typically refers to an unnamed object in
 Although the language allows you to do so, avoid defining multiple variables of the same type in a single statement. Instead, define each variable in a separate statement on its own line (and then use a single-line comment to document what it is used for).
 
 ### Variable Assignment and Initialization
+
+https://github.com/tacoda/learncpp/blob/0e5abdb4f0c6250aaec3fd7757204f36b8f1d7b3/VariableAssignment.cpp#L1-L24
 
 **Warning**
 
