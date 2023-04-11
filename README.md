@@ -37,21 +37,29 @@ g++ -o Test20 test20.cpp --std=c++20
 
 https://github.com/tacoda/learncpp/blob/959289b44e858103e708ec84e55d19ae8bc86c32/HelloWorld.cpp#L1-L7
 
-Line 1 is a special type of line called a preprocessor directive. This preprocessor directive indicates that we would like to use the contents of the iostream library, which is the part of the C++ standard library that allows us to read and write text from/to the console. We need this line in order to use std::cout on line 5. Excluding this line would result in a compile error on line 5, as the compiler wouldn’t otherwise know what std::cout is.
+```sh
+make hello-world
+```
 
-Line 2 is blank, and is ignored by the compiler. This line exists only to help make the program more readable to humans (by separating the #include preprocessor directive and the subsequent parts of the program).
+Line 1 is a special type of line called a preprocessor directive. This preprocessor directive indicates that we would like to use the contents of the `iostream` library, which is the part of the C++ standard library that allows us to read and write text from/to the console. We need this line in order to use `std::cout` on line 5. Excluding this line would result in a compile error on line 5, as the compiler wouldn’t otherwise know what `std::cout` is.
+
+Line 2 is blank, and is ignored by the compiler. This line exists only to help make the program more readable to humans (by separating the `#include` preprocessor directive and the subsequent parts of the program).
 
 Line 3 tells the compiler that we’re going to write (define) a function called main. As you learned above, every C++ program must have a main function or it will fail to link.
 
 Lines 4 and 7 tell the compiler which lines are part of the main function. Everything between the opening curly brace on line 4 and the closing curly brace on line 7 is considered part of the main function. This is called the function body.
 
-Line 5 is the first statement within function main, and is the first statement that will execute when we run our program. std::cout (which stands for “character output”) and the << operator allow us to send letters or numbers to the console to be output. In this case, we’re sending it the text “Hello world!”, which will be output to the console. This statement creates the visible output of the program.
+Line 5 is the first statement within function main, and is the first statement that will execute when we run our program. `std::cout` (which stands for “character output”) and the `<<` operator allow us to send letters or numbers to the console to be output. In this case, we’re sending it the text “Hello world!”, which will be output to the console. This statement creates the visible output of the program.
 
 Line 6 is a return statement. When an executable program finishes running, the program sends a value back to the operating system in order to indicate whether it ran successfully or not. This particular return statement returns the value of 0 to the operating system, which means “everything went okay!”. This is the last statement in the program that executes.
 
 ### Comments
 
 https://github.com/tacoda/learncpp/blob/249f68e8aaa0ce25b0ca82f19cd6bc64afc1e6e6/Comments.cpp#L1-L23
+
+```sh
+make comments
+```
 
 **Warning**
 
