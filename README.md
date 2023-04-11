@@ -133,6 +133,22 @@ There’s some debate over whether it’s necessary to initialize a variable imm
 
 ### Uninitialized Variables and Undefined Behavior
 
+**Rule**
+
+Take care to avoid all situations that result in undefined behavior, such as using uninitialized variables.
+
+### Keywords and Naming Identifiers
+
+https://github.com/tacoda/learncpp/blob/1e7f61dff2525b698cf12534cf681cf66a7f41c3/Naming.cpp#L1-L24
+
+```sh
+make naming
+```
+
+**Best practice**
+
+When working in an existing program, use the conventions of that program (even if they don’t conform to modern best practices). Use modern best practices when you’re writing new programs.
+
 ## C++ Basics: Functions and Files
 
 ## Debugging C++ Programs
