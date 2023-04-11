@@ -87,6 +87,10 @@ Although the language allows you to do so, avoid defining multiple variables of 
 
 https://github.com/tacoda/learncpp/blob/0e5abdb4f0c6250aaec3fd7757204f36b8f1d7b3/VariableAssignment.cpp#L1-L24
 
+```sh
+make variable-assignment
+```
+
 **Warning**
 
 One of the most common mistakes that new programmers make is to confuse the assignment operator (`=`) with the equality operator (`==`). Assignment (`=`) is used to assign a value to a variable. Equality (`==`) is used to test whether two operands are equal in value.
@@ -100,6 +104,12 @@ Favor initialization using braces whenever possible.
 Initialize your variables upon creation.
 
 ### IoStream
+
+https://github.com/tacoda/learncpp/blob/13fa0a7be8962667e585102d469f20717c9d9b32/IoStream.cpp#L1-L26
+
+```sh
+make io-stream
+```
 
 **Best practice**
 
